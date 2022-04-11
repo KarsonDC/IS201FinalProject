@@ -2,3 +2,273 @@ body {
     background-color:lightgray;
 }
 
+.byu-btn {
+    background-color: #002E5D;
+    color: #FFFFFF;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display:block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  
+  }
+  
+  .byu-btn:hover {
+    background: #0062B8;
+}
+
+.changefont {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    text-align: center;
+}
+
+.btn {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 25px 0px;
+    padding-top: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display:block;
+  height: 0px;
+  width: 50px;
+  border-radius: 8px;
+  align-items: center;
+}
+.btn:hover {
+    background: darkgrey;
+}
+
+.btncenter {
+    padding-left: 16%;
+}
+
+.center {
+    padding-right: 48%;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.picstyle {
+    width: 250px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.piccolumn {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .picrow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  *, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   }
+  
+  html
+  {
+      font-size:100%;
+  }
+  
+  body
+  {
+      -webkit-font-smoothing:antialiased;
+      color:#333332;
+      font-family:Lora, serif;
+      font-size:18px;
+      font-weight:400;
+      line-height:1.4;
+      text-rendering:optimizeLegibility;
+  }
+  
+  .skill-set li:hover
+  {
+      background:#3498db;
+  }
+  
+  .abouthead
+  {
+      color:rgba(0,0,0,.75);
+  }
+  
+  .wrapper
+  {
+      height:100%;
+  }
+  
+  .left
+  {
+        margin-left: 30%;
+        width: 50%;
+        padding: 10px;
+      }
+  
+  .right
+  {
+      float:right;
+      height:100%;
+      position:relative;
+      width:66.66%;
+  }
+  
+  
+  .name-hero
+  {
+      background:rgba(0,0,0,.001);
+      bottom:0;
+      height:290px;
+      left:0;
+      margin:auto;
+      position:absolute;
+      right:0;
+      top:0;
+      width:85%;
+  }
+  
+  .me-img
+  {
+      background:url(https://media-exp1.licdn.com/dms/image/C4E03AQGnLq_IB_mf8Q/profile-displayphoto-shrink_400_400/0/1631022739752?e=1648684800&v=beta&t=eICUjHeH_g9GQEItmEMK1j2gCADwqfjrlccSD_5za58) no-repeat center center ;
+      background-size:100%;
+    background-position:0px;
+      border-radius:100%;
+      height:150px;
+      margin:0 auto;
+      position:relative;
+      width:150px;
+  }
+  
+  .name-hero h1
+  {
+      font-family:Open Sans, sans-serif;
+      font-size:1.5em;
+      text-align:center;
+  }
+  
+  .name-hero h1 em
+  {
+      color:rgba(0,0,0,.3);
+      font-style:normal;
+      font-weight:700;
+  }
+  
+  .name-hero p
+  {
+      color:rgba(0,0,0,.75);
+      font-size:.75em;
+      line-height:1.5;
+      margin:0 8px 0 0;
+      text-align:center;
+  }
+  
+  .name-hero .name-text
+  {
+      margin:0 auto;
+      width:85%;
+  }
+  
+  .inner
+  {
+      margin:0 auto;
+      max-width:975px;
+      padding:3em;
+  }
+  
+  .inner h1
+  {
+      font-size:1.75em;
+  }
+  
+  .inner p
+  {
+      color:rgba(0,0,0,.5);
+  }
+  
+  .inner p em
+  {
+      color:rgba(0,0,0,1);
+      font-style:normal;
+  }
+  
+  .inner section
+  {
+      margin:100px auto;
+  }
+  
+  ul
+  {
+      list-style-type:none;
+      margin-top:-10px;
+      max-width:570px;
+      padding:0;
+  }
+  
+  .skill-set li
+  {
+      background:rgba(0,0,0,.75);
+      border-radius:5px;
+      color:#FFF;
+      display:inline-block;
+      list-style:none;
+      margin:15px 15px 0 0;
+      padding:10px;
+      text-align:center;
+  }
+  
+  @media screen and (max-width: 48em) {
+      .right,.left
+      {
+          float:none;
+      position:relative !important;
+          width:100%;
+      min-height:500px;
+      }
+    .handmade {
+    text-align:center !important;
+    margin-top:0px !important;
+  }
+  
+  @media screen and (max-width: 75em) {
+      body
+  { font-size:16px;}
+  }
+  
+  @media screen and (max-width: 60em) {
+      body
+  { font-size:14px;}
+  }
+  .clearfix:after {
+     content: " "; /* Older browser do not support empty content */
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+  }
+  .handmade {
+    text-align:right;
+    margin-top:100px;
+  }
+
+  .handmade em {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 1.25em;
+    margin-left:5px;
+  }}
+
+  .vidcenter {
+      text-align: center;
+  }

@@ -1,5 +1,5 @@
 body {
-    background-color:lightgray;
+    background-color:#7393B3;
 }
 
 .unorderedlist {
@@ -25,4 +25,38 @@ body {
   
   li a:hover {
     background-color: #111;
+  }
+  
+  .piccolumn {
+    float: left;
+    width: 40%;
+    padding: 15px;
+    margin-left: 75px;
+    margin-bottom: 0;
+  }
+  
+  .picrow::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .caption {
+      color: lightgray;
+      font-weight: bold;
+      padding: 10px;
+      background-color: #333;
+      text-align: center;
+  }
+
+  .border {
+      border-top: 1px solid white
+  }
+
+  .footerfont {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      color: white;
+      text-align: center;
+      font-size: large;
   }
